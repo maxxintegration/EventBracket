@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+<title>Font Icon Class</title>
+<link rel="stylesheet/less" href="less/demo.less">
+<style>
+	section, header, footer {display: block;}
+
+	body {
+		font-family: sans-serif;
+		color: #444;
+		line-height: 1.5;
+		font-size: 1em;
+	}
+	* {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		margin: 0;
+		paddin: 0;
+	}
+	.glyph {
+		float: left;
+		text-align: center;
+		background: #eee;
+		padding: .75em;
+		margin: .75em 1.5em .75em 0;
+		width: 7em;
+		border-radius: .375em;
+		box-shadow: inset 0 0 0 1px #fff, 0 0 0 1px #ccc;
+	}
+	.glyph input {
+		width: 100%;
+		text-align: center;
+		font-family: consolas, monospace;
+	}
+	.glyph input, .mtm {
+		margin-top: .75em;
+	}
+	.w-main {
+		width: 80%;
+	}
+	.centered {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.fs1 {
+		font-size: 2em;
+	}
+	header {
+		margin: 2em 0;
+		padding-bottom: .5em;
+		color: #666;
+		box-shadow: 0 2px #eee;
+	}
+	header h1 {
+		font-size: 2em;
+		font-weight: normal;
+	}
+	.clearfix:before, .clearfix:after { content: ""; display: table; }
+	.clearfix:after, .clear { clear: both; }
+	footer {
+		margin-top: 2em;
+		padding: .5em 0;
+		box-shadow: 0 -2px #eee;
+	}
+	a, a:visited {
+		color: #B35047;
+		text-decoration: none;
+	}
+	a:hover, a:focus {color: #000;}
+	.box1 {
+		display: inline-block;
+		width: 15em;
+		padding: .25em .5em;
+		background: #eee;
+		margin: .5em 1em .5em 0;
+	}
+	.navbar {
+		position: fixed;
+		right: 0px;
+		top: 20%;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.navbar ul {
+		list-style: none;
+		border-left: 1px solid #ddd;
+		border-top: 1px solid #ddd;
+		padding: 0;
+	}
+	.navbar ul li {
+		background: #eee;
+		color: #333;
+		border-bottom: 1px solid #ddd;
+	}
+	.navbar ul li a {
+		display: block;
+		width: 100%;
+		padding: 7px 12px;
+		height: 100%;
+	}
+</style>
+<script type="text/javascript" src="js/libs/jquery.js"></script>
+<script src="js/bootstrap/bootstrap.js"></script>
+<script type="text/javascript" src="js/less.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+
+		$.ajax({
+			type : 'GET',
+			dataType:'html',
+			url : 'iconlists/typicon.html',
+			success : function(response) {
+				data = response;
+				$('#typicon .icon-content').html(data);
+			}
+		});
+
+   		$.ajax({
+			type : 'GET',
+			dataType:'html',
+			url : 'iconlists/entypo.html',
+			success : function(response) {
+				data = response;
+				$('#entypo .icon-content').html(data);
+			}
+		});
+
+		$.ajax({
+			type : 'GET',
+			dataType:'html',
+			url : 'iconlists/fontawesome.html',
+			success : function(response) {
+				data = response;
+				$('#fontawesome .icon-content').html(data);
+			}
+		});
+
+	});
+</script>
+</head>
+<body>
+    <div class="navbar">
+	    
+	    <ul class="nav">
+		    <li><a href="#entypo">Entypo</a></li>
+		    <li><a href="#typicon">Typicon</a></li>
+		    <li><a href="#fontawesome">Font Awesome</a></li>
+	    </ul>
+
+    </div>
+	<div class="w-main centered">
+	
+		<section class="mtm clearfix" id="entypo">
+		<header>
+			<h1>Entypo Icon Class Names</h1>
+		</header>
+
+			<div class="icon-content">
+				<!-- content -->
+			</div>
+
+		</section>
+
+
+		<section class="mtm clearfix" id="typicon">
+			<header>
+				<h1>Typicoon Icon Class Names</h1>
+			</header>
+
+			
+			<div class="icon-content">
+				<!-- content -->
+			</div>
+
+		</section>
+
+		<section class="mtm clearfix" id="fontawesome">
+			<header>
+				<h1>FontAwesome Icon Class Names</h1>
+			</header>
+
+			
+			<div class="icon-content">
+				<!-- content -->
+			</div>
+
+		</section>
+
+	</div>
+</body>
+</html>

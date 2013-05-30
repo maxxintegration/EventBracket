@@ -1,0 +1,172 @@
+/* ===================================================================================== */
+// Template Mixins
+// --------------------------------------------------
+
+// predefined border radius bundle
+// usage #radius > .mini() || #radius > .small() ,etc;
+#radius {
+	.mini() {
+		.border-radius(@borderRadiusMini);
+	}
+	.small() {
+		.border-radius(@bordarRadiusSmall);
+	}
+	.large() {
+		.border-radius(@borderRadiusLarge);
+	}
+	.base() {
+		.border-radius(@baseBorderRadius);
+	}
+	.circle() {
+		.border-radius(1000px);
+	}
+	.remove() {
+		.border-radius(0px);
+	}
+}
+
+
+// Add Divider
+.break(@bgColor: @grayLighter, @borderColor: @templateColor, @margin: 0, @padding: 0){
+	height: 1px;
+	background-color: @bgColor;
+	border-right: 50px solid @borderColor;
+	margin: @margin;
+	padding: @padding;
+}
+
+// Reset Margin & Padding for OL / UL
+.reset-list() {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+// Flat buttons
+.flatButton(@bgColor: @linkColor, @bgStateColor: darken(@templateColor, 15%), @textColor: @white, @textStateColor: @white, @radius: 2px) {
+	.reset-filter();
+	border: none;
+	background-image: none;
+	background-color: @bgColor;
+	color: @textColor;
+	text-shadow: none;
+	.box-shadow(none);
+	.border-radius(@radius) !important;
+	#radius > .mini();
+	&:hover, &:active, &.active, &.disabled, &[disabled] {
+		color: @textStateColor;
+		background-color: @bgStateColor;
+	}
+	&:active, &.active {
+		outline: 0;
+		.box-shadow(~"inset 0 2px 4px rgba(0,0,0,.4), 0 1px 2px rgba(0,0,0,.1)");
+		//text-shadow: 0 1px 0 lighten(@bgColor,15%);
+	}
+}
+
+.flatten() {
+	.reset-filter();
+	.box-shadow(none);
+	background-image: none;
+}
+
+// Define new Font Style
+.define-font(@fontFamily: @baseFontFamily, @fontSize: 12px, @fontWeight: bold, @margin: 0, @fontStyle: normal) {
+	font-family: @fontFamily;
+	margin: @margin;
+	font-weight: @fontWeight;
+	font-style: @fontStyle;
+	font-size: @fontSize;
+}
+
+//polaroid image style for theme || little difference from bootstrap default
+.image-polaroid {
+	.box-shadow(0 0 4px rgba(0,0,0,0.1));
+	border: 1px solid #c0c0c0;
+	padding: 4px;
+	.transition(all .2s linear);
+	&:hover {
+		border: 1px solid #b0b0b0;
+		.box-shadow(0 0 4px rgba(0,0,0,0.2));
+		.transition(all .2s linear);
+	}
+}
+
+.rating-dynamic {
+	unicode-bidi: bidi-override;
+ 	direction: rtl;
+ 	float: left;
+ 	
+}
+
+
+// Loop For Rating Icon
+
+.rateX (@index) when (@index > 0) {
+
+	@nChild: ~`'-n+' + "@{index}"`;
+	
+	(~".rate@{index}") { > span:nth-child(@nChild) {color: @templateColor;} }
+	.rateX(@index - 1);
+}
+
+.rateX (0) {}
+
+.rateX (10);
+.star-small {
+	> span {
+		cursor: pointer;
+		position: relative;
+		font-size: @baseFontSize;
+		margin: 0px;
+		padding: 0px;
+		display: inline-block;
+		width: auto;
+		color: @grayDark;
+	}
+	&.rating-dynamic  {
+		> span {
+			&:hover:before, &:hover ~ span:before {
+				color: @templateColor;
+			}
+		}
+	}
+}
+.star-medium {
+	> span {
+		cursor: pointer;
+		position: relative;
+		font-size: 16px;
+		margin: 0px;
+		padding: 0px;
+		display: inline-block;
+		width: auto;
+		color: @grayDark;
+	}
+	&.rating-dynamic {
+		> span {
+			&:hover:before, &:hover ~ span:before {
+				color: @templateColor;
+			}
+		}
+	}
+}
+.star-large {
+	> span {
+		cursor: pointer;
+		position: relative;
+		font-size: @fontSizeLarge;
+		margin: 0px;
+		padding: 0px;
+		display: inline-block;
+		width: auto;
+		color: @grayDark;
+	}
+	&.rating-dynamic {
+		> span {
+			&:hover:before, &:hover ~ span:before {
+				color: @templateColor;
+			}
+		}
+	}
+}
