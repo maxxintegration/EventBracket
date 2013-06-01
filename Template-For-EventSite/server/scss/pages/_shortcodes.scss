@@ -1,0 +1,65 @@
+.block_buttons {
+	padding: 17px 0px 10px;
+	overflow: hidden;
+
+	h2 {
+		padding-bottom: 9px;
+	}
+	p {
+		margin: 0px;
+		padding: 0px;
+		overflow: hidden;
+	}
+	.generic_button {
+		margin-right: 10px;
+		margin-bottom: 20px;
+		float: left;
+		display: inline;
+	}
+}
+
+.block_tabs {
+	padding: 17px 0px 32px;
+
+	h2 {
+		padding-bottom: 9px;
+	}
+}
+
+.block_toggles {
+	padding: 17px 0px 32px;
+
+	h2 {
+		padding-bottom: 9px;
+	}
+}
+
+.block_tables {
+	padding: 17px 0px 32px;
+
+	h2 {
+		padding-bottom: 9px;
+	}
+}
+
+.block_style_boxes {
+	padding: 17px 0px 32px;
+
+	h2 {
+		margin-bottom: -3px;
+		padding-bottom: 0px;
+	}
+
+	.style_box {
+		margin-top: 12px;
+	}
+}
+
+.block_lists {
+	padding: 17px 0px 0px;
+	overflow: hidden;
+
+	h2 {
+		padding-bottom: 4px;
+	}
+}

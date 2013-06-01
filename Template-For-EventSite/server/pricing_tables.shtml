@@ -1,0 +1,213 @@
+<!--#include file="layout_head.html"-->
+<div class="container">
+  <!--#include file="header.html"-->
+  <!-- End Head -->
+	<div class="block_titleline">
+		<h1>Pricing Tables</h1>
+
+		<div class="block_search">
+			<div class="field"><input type="text" class="w_def_text" title="Search"></div>
+			<input type="submit" class="button" value="Search">
+		</div>
+	</div>
+
+	<div class="block_breadcrumbs">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li>Pricing Tables</li>
+		</ul>
+	</div>
+
+	<div class="h_line"></div>
+	<div class="separator_1"></div>
+
+	<h2>Pricing table</h2>
+	<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+
+	<div class="separator_1"></div>
+	<div class="h_line"></div>
+	<div class="separator_2"></div>
+
+	<div class="block_pricing_table_1">
+		<div class="column first">
+			<div class="cell_wrapper title">
+				<div class="cell"><p>Basic</p></div>
+			</div>
+			<div class="cell_wrapper price">
+				<div class="cell"><p>FREE</p></div>
+			</div>
+			<div class="cell_wrapper features">
+				<div class="cell">
+					<p>Limited Edition</p>
+					<p>Demo Version</p>
+					<div class="icon"><img src="img/icon_unchecked.png" alt=""></div>
+					<p>1 Gb of Free Space</p>
+					<div class="button"><a href="#" class="generic_button dark_brown wide"><span>Sign Up</span></a></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="column optimal">
+			<div class="cell_wrapper title">
+				<div class="cell"><p>Standart</p></div>
+			</div>
+			<div class="cell_wrapper price">
+				<div class="cell"><p>20$<span>/month</span></p></div>
+			</div>
+			<div class="cell_wrapper features">
+				<div class="cell">
+					<p>10 Options</p>
+					<p>Full Version</p>
+					<div class="icon"><img src="img/icon_checked.png" alt=""></div>
+					<p>5 Gb of Free Space</p>
+					<div class="button"><a href="#" class="generic_button wide"><span>Sign Up</span></a></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="column">
+			<div class="cell_wrapper title">
+				<div class="cell"><p>Advanced</p></div>
+			</div>
+			<div class="cell_wrapper price">
+				<div class="cell"><p>40$<span>/month</span></p></div>
+			</div>
+			<div class="cell_wrapper features">
+				<div class="cell">
+					<p>100 Options</p>
+					<p>Full Version</p>
+					<div class="icon"><img src="img/icon_checked.png" alt=""></div>
+					<p>50 Gb of Free Space</p>
+					<div class="button"><a href="#" class="generic_button dark_brown wide"><span>Sign Up</span></a></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="column last">
+			<div class="cell_wrapper title">
+				<div class="cell"><p>Premium</p></div>
+			</div>
+			<div class="cell_wrapper price">
+				<div class="cell"><p>100$<span>/month</span></p></div>
+			</div>
+			<div class="cell_wrapper features">
+				<div class="cell">
+					<p>Unlimited Options</p>
+					<p>Full Version</p>
+					<div class="icon"><img src="img/icon_checked.png" alt=""></div>
+					<p>100 Gb of Free Space</p>
+					<div class="button"><a href="#" class="generic_button dark_brown wide"><span>Sign Up</span></a></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="clear"></div>
+	</div>
+
+	<div class="separator_2"></div>
+	<div class="h_line"></div>
+	<div class="separator_1"></div>
+
+	<h2>Pricing table layout</h2>
+	<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+
+	<div class="separator_1"></div>
+	<div class="h_line"></div>
+	<div class="separator_2"></div>
+
+	<div class="block_pricing_table_2">
+		<div class="column first">
+			<div class="cell_wrapper title">
+				<div class="cell"><p>Basic</p></div>
+			</div>
+			<div class="cell_wrapper price">
+				<div class="cell"><p>FREE</p></div>
+			</div>
+			<div class="cell_wrapper features">
+				<div class="cell">
+					<p>Limited Edition</p>
+					<p>Demo Version</p>
+					<div class="icon"><img src="img/icon_unchecked.png" alt=""></div>
+					<p>1 Gb of Free Space</p>
+					<div class="button"><a href="#" class="generic_button wide"><span>Sign Up</span></a></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="column">
+			<div class="cell_wrapper title">
+				<div class="cell"><p>Standart</p></div>
+			</div>
+			<div class="cell_wrapper price">
+				<div class="cell"><p>20$<span>/month</span></p></div>
+			</div>
+			<div class="cell_wrapper features">
+				<div class="cell">
+					<p>10 Options</p>
+					<p>Full Version</p>
+					<div class="icon"><img src="img/icon_checked.png" alt=""></div>
+					<p>5 Gb of Free Space</p>
+					<div class="button"><a href="#" class="generic_button wide"><span>Sign Up</span></a></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="column">
+			<div class="cell_wrapper title">
+				<div class="cell"><p>Advanced</p></div>
+			</div>
+			<div class="cell_wrapper price">
+				<div class="cell"><p>40$<span>/month</span></p></div>
+			</div>
+			<div class="cell_wrapper features">
+				<div class="cell">
+					<p>100 Options</p>
+					<p>Full Version</p>
+					<div class="icon"><img src="img/icon_checked.png" alt=""></div>
+					<p>50 Gb of Free Space</p>
+					<div class="button"><a href="#" class="generic_button wide"><span>Sign Up</span></a></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="column">
+			<div class="cell_wrapper title">
+				<div class="cell"><p>Premium</p></div>
+			</div>
+			<div class="cell_wrapper price">
+				<div class="cell"><p>100$<span>/month</span></p></div>
+			</div>
+			<div class="cell_wrapper features">
+				<div class="cell">
+					<p>200 Options</p>
+					<p>Full Version</p>
+					<div class="icon"><img src="img/icon_checked.png" alt=""></div>
+					<p>100 Gb of Free Space</p>
+					<div class="button"><a href="#" class="generic_button wide"><span>Sign Up</span></a></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="column last">
+			<div class="cell_wrapper title">
+				<div class="cell"><p>EXTRA</p></div>
+			</div>
+			<div class="cell_wrapper price">
+				<div class="cell"><p>200$<span>/month</span></p></div>
+			</div>
+			<div class="cell_wrapper features">
+				<div class="cell">
+					<p>Unlimited Options</p>
+					<p>Full Version + Updates</p>
+					<div class="icon"><img src="img/icon_checked.png" alt=""></div>
+					<p>Unlimited Free Space</p>
+					<div class="button"><a href="#" class="generic_button wide"><span>Sign Up</span></a></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="clear"></div>
+	</div>
+
+</div>
+<!--#include file="layout_footer.html"-->

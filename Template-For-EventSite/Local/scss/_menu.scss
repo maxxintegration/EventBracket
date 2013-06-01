@@ -1,0 +1,326 @@
+.menu{
+	float:right;
+	margin-top: 30px;
+
+	nav{
+		height:41px;
+		padding: 3px;
+
+		position: relative;
+
+		background: url(../img/bg_main_menu.png);
+		border-bottom:1px solid #4a453d;
+
+		border-radius: 6px;
+    	-moz-border-radius: 6px;
+    	-webkit-border-radius: 6px;
+
+    	behavior:url(js/PIE.htc);
+
+		z-index: 100;
+
+		a {
+			font-family: Arial;
+		}
+		a:hover {
+			text-decoration: none;
+		}
+
+		> ul {
+
+			> li{
+				width:104px;
+				display: block;
+				float:left;
+
+				position: relative;
+				
+				border-top: 1px solid #635950;
+				border-right: 1px solid #292626;
+				border-left:1px solid #514941;
+
+      			@include gradient(#4f4740, #2f2b26);
+
+      			behavior:url(js/PIE.htc);
+
+				> a{
+					height:40px;
+					line-height:38px;
+					@include font(11px);
+					color:$color_txt_1;
+					font-family: $Oswald;
+					text-decoration:none;
+					text-align: center;
+					text-transform: uppercase;
+					display:block;
+				}
+
+				ul {
+					width: 142px;
+					padding-top: 5px;
+					display: block;
+					position: absolute;
+					left: 0px;
+					top: -9000px;
+
+					li {
+						display: block;
+						position: relative;
+						background: url(../img/bg_submenu.jpg);
+						border-top: 1px solid #5f564e;
+						border-bottom: 1px solid #302d2d;
+
+						-moz-box-shadow:0px 2px 2px -1px rgba(0, 0, 0, 0.7);
+						-webkit-box-shadow:0px 2px 2px -1px rgba(0, 0, 0, 0.7);
+						box-shadow:0px 2px 2px -1px rgba(0, 0, 0, 0.7);
+
+  						behavior:url(js/PIE.htc);
+
+						a {
+							padding:2px 20px 4px 28px;
+							display: block;
+							font-size: 11px;
+							color:$color_txt_7;
+							text-shadow:0px -1px #24211d;
+						}
+
+						ul {
+							padding-top: 0px;
+							padding-left: 5px;
+							left: 138px;
+							top: -9000px;
+						}
+					}
+					li.hover {
+						background: url(../img/bg_submenu_act.jpg);
+
+						> a {
+							color: $color_txt_2;
+						}
+
+						> ul {
+							top: -1px;
+						}
+					}
+					li.has_children {
+						> a {
+							background: url(../img/arrow_submenu.gif) no-repeat 127px 9px;
+						}
+					}
+					li.has_children:hover {
+						> a {
+							background: url(../img/arrow_submenu_act.gif) no-repeat 127px 9px;
+						}
+					}
+					li.first {
+						-webkit-border-radius: 0px 3px 0px 0px;
+						-moz-border-radius: 0px 3px 0px 0px;
+						border-radius: 0px 3px 0px 0px;
+					}
+					li.last {
+						-webkit-border-radius: 0px 0px 3px 3px;
+						-moz-border-radius: 0px 0px 3px 3px;
+						border-radius: 0px 0px 3px 3px;
+					}
+				}
+			}
+			> li.hover {
+				@include gradient(#2f2b26, #4f4740);
+				> a {			
+					color:$color_txt_2;
+				}
+
+				> ul {
+					top: 40px;
+				}
+			}
+			> li.active {
+				@include gradient(#2f2b26, #4f4740);
+
+				> a {			
+					color:$color_txt_2;
+				}
+			}
+			> li.first {
+				padding-left: 3px;
+				border-left:none;
+
+				border-radius: 4px 0px 0px 4px;
+		    	-moz-border-radius: 4px 0px 0px 4px;
+		    	-webkit-border-radius: 4px 0px 0px 4px;
+			}
+			> li.last {
+				padding-right: 3px;
+				border-right:none;
+
+				border-radius: 0px 4px 4px 0px;
+		    	-moz-border-radius: 0px 4px 4px 0px;
+		    	-webkit-border-radius: 0px 4px 4px 0px;
+			}
+		}	
+
+
+	}
+}
+
+.r_menu {
+	height:41px;
+	margin-top: 30px;
+	padding: 3px;
+	display: none;
+
+	position: relative;
+
+	background: url(../img/bg_main_menu.png);
+	border-bottom:1px solid #4a453d;
+
+	border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+
+    behavior:url(js/PIE.htc);
+
+  	z-index: 200;
+
+  	a:hover {
+  		text-decoration:none;
+  	}
+
+	.r_menu_content {
+		height: 40px;
+		overflow: hidden;
+
+		position: relative;
+				
+		border-top: 1px solid #635950;
+
+		border-radius: 4px;
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+
+      	@include gradient(#4f4740, #2f2b26);
+
+      	behavior:url(js/PIE.htc);
+
+		cursor: pointer;
+
+		.arrow {
+			width: 39px;
+			height: 40px;
+			float: right;
+			background: url(../img/arrow_7.gif) no-repeat 14px 16px;
+			border-left:1px solid #514941;
+
+			cursor: pointer;
+		}
+
+		.text {
+			height: 40px;
+			line-height: 38px;
+			padding: 0px 20px 0px 40px;
+			overflow: hidden;
+			border-right: 1px solid #292626;
+
+			font-family: $Oswald;
+			font-size: 11px;
+			color: $color_txt_1;
+			text-transform: uppercase;
+
+			cursor: pointer;
+		}
+	}
+	.r_menu_content:hover {
+		@include gradient(#2f2b26, #4f4740);
+
+		.text {
+			color:$color_txt_2;
+		}
+	}
+	.r_menu_content.collapsed {
+		@include gradient(#2f2b26, #4f4740);
+
+		.text {
+			color:$color_txt_2;
+		}
+	}
+
+	> ul {
+		width: 100%;
+		display: none;
+
+		position: absolute;
+		left: 0px;
+		top: 49px;
+
+		background: url(../img/bg_submenu.jpg);
+
+		-webkit-border-radius: 0px 3px 3px 3px;
+		-moz-border-radius: 0px 3px 3px 3px;
+		border-radius: 0px 3px 3px 3px;
+
+		-moz-box-shadow:0px 2px 2px -1px rgba(0, 0, 0, 0.7);
+		-webkit-box-shadow:0px 2px 2px -1px rgba(0, 0, 0, 0.7);
+		box-shadow:0px 2px 2px -1px rgba(0, 0, 0, 0.7);
+
+  		behavior:url(js/PIE.htc);
+
+  		li {
+			display: block;
+
+			a {
+				padding:2px 20px 4px 28px;
+				display: block;
+				border-top: 1px solid #5f564e;
+				border-bottom: 1px solid #302d2d;
+				font-size: 11px;
+				color:$color_txt_7;
+				text-shadow:0px -1px #24211d;
+			}
+
+			li {
+				a {
+					padding-left: 43px;
+				}
+
+				li { 
+					a {
+						padding-left: 58px;
+					}
+
+					li {
+						a {
+							padding-left: 73px;
+						}
+					}
+				}
+			}
+
+		}
+		li > a:hover {
+			background: url(../img/bg_submenu_act.jpg);
+			color: $color_txt_2;
+		}
+		li.active > a {
+			background: url(../img/bg_submenu_act.jpg);
+			color: $color_txt_2;
+		}
+		> li.first > a {
+			position: relative;
+
+			-webkit-border-radius: 0px 3px 0px 0px;
+			-moz-border-radius: 0px 3px 0px 0px;
+			border-radius: 0px 3px 0px 0px;
+
+  			behavior:url(js/PIE.htc);
+		}
+		> li.last > a {
+			position: relative;
+
+			-webkit-border-radius: 0px 0px 3px 3px;
+			-moz-border-radius: 0px 0px 3px 3px;
+			border-radius: 0px 0px 3px 3px;
+
+  			behavior:url(js/PIE.htc);
+		}
+	}
+}

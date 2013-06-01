@@ -1,0 +1,11 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/* TEAM */
+  Team: Artureanec
+  <your title>: Melnichuk Vladimir, Artur Liahiv
+  Site: http://themeforest.net/user/Artureanec/portfolio
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery

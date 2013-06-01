@@ -1,0 +1,201 @@
+<!--#include file="layout_head.html"-->
+<div class="container">
+  <!--#include file="header.html"-->
+  <!-- End Head -->
+	<div class="block_titleline">
+		<h1>About Us</h1>
+
+		<div class="block_search">
+			<div class="field"><input type="text" class="w_def_text" title="Search"></div>
+			<input type="submit" class="button" value="Search">
+		</div>
+	</div>
+
+	<div class="block_breadcrumbs">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li>About Us</li>
+		</ul>
+	</div>
+
+	<div class="h_line"></div>
+	<div class="block_about_us_main">
+		<div class="pic">
+			<div class="generic_pic_border medium"><img src="img/pic_about.png" alt=""></div>
+		</div>
+
+		<div class="text">
+			<p>It is a long established fact that a reader will be distracted by the <a href="#">readable content</a> of a page when looking at its layout. The point of using <a href="#">Lorem Ipsum</a> is that it has a more-or-less normal distribution.</p>
+			<p>Opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years.<br>sometimes.accident, sometimes on purpose (injected humour and the like).</p>
+			<div class="fright" style="margin-top:-9px;">
+				<a href="#" class="generic_button"><span>View our portfolio</span></a>
+				<a href="#" class="generic_button"><span>Learn More</span></a>
+			</div>
+		</div>
+
+		<div class="clear"></div>
+	</div>
+
+	<div class="h_line"></div>
+
+	<div class="block_our_team">
+		<h2>Our team</h2>
+
+		<div class="row-fluid">
+			<div class="span4">
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+			</div>
+
+			<div class="span4">
+				<div class="teammate">
+					<div class="userpic">
+						<div class="generic_pic_border big_radius"><img src="img/userpic_default.png" alt=""></div>
+					</div>
+
+					<div class="information">
+						<p class="name">joe doe/web designer</p>
+						<p>It is a long established fact that a reader will be distracted by the readable looking at its layout.</p>
+					</div>
+
+					<div class="clear"></div>
+				</div>
+
+				<div class="separator_1"></div>
+
+				<div class="teammate">
+					<div class="userpic">
+						<div class="generic_pic_border big_radius"><img src="img/userpic_default.png" alt=""></div>
+					</div>
+
+					<div class="information">
+						<p class="name">don vito/hr coordinator</p>
+						<p>It is a long established fact that a reader will be distracted by the readable looking at its layout.</p>
+					</div>
+
+					<div class="clear"></div>
+				</div>
+
+			</div>
+
+			<div class="span4">
+				<div class="teammate">
+					<div class="userpic">
+						<div class="generic_pic_border big_radius"><img src="img/userpic_default.png" alt=""></div>
+					</div>
+
+					<div class="information">
+						<p class="name">john smith/seo</p>
+						<p>A reader will be distracted by the readable looking at its layout. The point of using Lorem Ipsum</p>
+					</div>
+
+					<div class="clear"></div>
+				</div>
+
+				<div class="separator_1"></div>
+
+				<div class="teammate">
+					<div class="userpic">
+						<div class="generic_pic_border big_radius"><img src="img/userpic_default.png" alt=""></div>
+					</div>
+
+					<div class="information">
+						<p class="name">bill appolo/programmer</p>
+						<p>A reader will be distracted by the readable looking at its layout. The point of using Lorem Ipsum</p>
+					</div>
+
+					<div class="clear"></div>
+				</div>
+			</div>
+
+			<div class="clear"></div>
+		</div>
+	</div>
+
+	<div class="h_line"></div>
+	<div class="separator_1"></div>
+
+	<div class="block_about_widgets_area">
+		<div class="row-fluid">
+			<div class="span3">
+				<h2>Our services</h2>
+
+				<ul class="list_7" style="margin-top:-5px;">
+					<li><a href="#">There are many variations</a></li>
+					<li><a href="#">Passages of Lorem Ipsum</a></li>
+					<li><a href="#">Available but the majority have</a></li>
+					<li><a href="#">Suffered alteration in some</a></li>
+					<li><a href="#">Form by injected humour</a></li>
+					<li><a href="#">Randomised words which don't</a></li>
+					<li><a href="#">Look even slightly believable</a></li>
+				</ul>
+			</div>
+
+
+			<div class="span3">
+				<div class="block_text_widget">
+					<h2>Text Widget</h2>
+					<p>Many desktop publishing pvackages and web page editors now use Lorem Ipsum as their default model. text, and a search for 'lorem ipsum' will uncover.</p>
+					<p>Web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose  injected humour and the like.</p>
+				</div>
+			</div>
+
+
+			<div class="span3">
+				<div class="block_text_widget">
+					<h2>Featured Project</h2>
+					<p style="padding-top:7px;"><span class="generic_pic_border medium"><img src="img/pic_feature.png" alt=""></span></p>
+					<p>Many desktop publishing pvackages and web page editors now use Lorem Ipsum as their default model.</p>
+					<a href="#" class="generic_button"><span>Learn More</span></a>
+				</div>
+			</div>
+
+
+			<div class="span3">
+				<h2>Testimonials</h2>
+				<div class="block_testimonial narrow">
+					<div class="testimonials_nav"></div>
+
+					<div id="testimonials" class="flexslider">
+						<ul class="slides">
+							<li>
+								<div class="testimonial">
+									<p class="text">There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+									<p class="author">John Smith, <span class="position">Vice President</span></p>
+								</div>
+							</li>
+
+							<li>
+								<div class="testimonial">
+									<p class="text">“Content here. Many desktop publishing packages and web page editors now.</p>
+									<p class="author">John Doe, <span class="position">Manager</span></p>
+								</div>
+							</li>
+
+							<li>
+								<div class="testimonial">
+									<p class="text">“Content here, content here', making it look like readable English.</p>
+									<p class="author">Jane Smith, <span class="position">President</span></p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="clear"></div>
+		</div>
+	</div>
+
+	<div class="separator_2"></div>
+	<div class="h_line"></div>
+
+	<section class="promo_meassage">
+		<p class="promo_txt">Sirius. is a clean and styled Premium PSD Theme useful for portfolio, business and blog websites.</p>
+		<div class="button"><a href="#" class="generic_button w_arrow"><span><span>Contact Us</span></span></a></div>
+		<div class="clear"></div>
+	</section>
+	<div class="h_line"></div>
+
+</div>
+<!--#include file="layout_footer.html"-->

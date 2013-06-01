@@ -1,0 +1,199 @@
+<!--#include file="layout_head.html"-->
+<div class="container">
+  <!--#include file="header.html"-->
+  <!-- End Head -->
+
+	<div class="block_titleline">
+		<h1>Portfolio 3 Columns</h1>
+
+		<div class="block_search">
+			<div class="field"><input type="text" class="w_def_text" title="Search"></div>
+			<input type="submit" class="button" value="Search">
+		</div>
+	</div>
+
+	<div class="block_breadcrumbs fleft">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li>Portfolio 3 Columns</li>
+		</ul>
+	</div>
+
+	<div class="block_filter fright">
+		<ul>
+			<li>Filter:</li>
+			<li><a href="#" class="current" data-filter="portfolio_item">All Works</a></li>
+			<li><a href="#" data-filter="Graphic">Graphic</a></li>
+			<li><a href="#" data-filter="Advertisement">Advertisement</a></li>
+			<li><a href="#" data-filter="Internet">Internet</a></li>
+		</ul>
+	</div>
+
+	<div class="clear"></div>
+
+	<div class="h_line"></div>
+	<div class="separator_1"></div>
+
+	<div class="block_portfolio c_3">
+		<h2  class="filter_title">All Works</h2>
+
+		<div class="porfolio_box">
+
+			<div class="portfolio_item Graphic">
+				<div class="generic_pic_border w_caption zoom medium">
+					<a href="img/slide_3.png" data-rel="prettyPhoto">
+						<img src="img/pic_portfolio_3_1.png" alt="">
+						<span class="caption">
+							<span class="icon"></span>
+						</span>
+					</a>
+				</div>
+
+				<div class="description">
+					<p class="title">Business strategy</p>
+				</div>
+			</div>
+		
+			<div class="portfolio_item">
+				<div class="generic_pic_border w_caption zoom medium">
+					<a href="img/slide_3.png" data-rel="prettyPhoto">
+						<img src="img/pic_portfolio_3_2.png" alt="">
+						<span class="caption">
+							<span class="icon"></span>
+						</span>
+					</a>
+				</div>
+
+				<div class="description">
+					<p class="title">Global development</p>
+				</div>
+			</div>
+
+			<div class="portfolio_item Graphic">
+				<div class="generic_pic_border w_caption play medium">
+					<a href="http://www.youtube.com/watch?v=FWUtMsiKhmM" data-rel="prettyPhoto">
+						<img src="img/pic_portfolio_3_3.png" alt="">
+						<span class="caption">
+							<span class="icon"></span>
+						</span>
+					</a>
+				</div>
+
+				<div class="description">
+					<p class="title">Internet solutions</p>
+				</div>
+			</div>
+
+			<div class="portfolio_item">
+				<div class="generic_pic_border w_caption play medium">
+					<a href="http://www.youtube.com/watch?v=FWUtMsiKhmM" data-rel="prettyPhoto">
+						<img src="img/pic_portfolio_3_4.png" alt="">
+						<span class="caption">
+							<span class="icon"></span>
+						</span>
+					</a>
+				</div>
+
+				<div class="description">
+					<p class="title">Illustrations</p>
+				</div>
+			</div>
+
+			<div class="portfolio_item Advertisement">
+				<div class="generic_pic_border w_caption zoom medium">
+					<a href="img/slide_3.png" data-rel="prettyPhoto">
+						<img src="img/pic_portfolio_3_5.png" alt="">
+						<span class="caption">
+							<span class="icon"></span>
+						</span>
+					</a>
+				</div>
+
+				<div class="description">
+					<p class="title">Enttertainment</p>
+				</div>
+			</div>
+
+			<div class="portfolio_item Advertisement">
+				<div class="generic_pic_border w_caption zoom medium">
+					<a href="img/slide_3.png" data-rel="prettyPhoto">
+						<img src="img/pic_portfolio_3_6.png" alt="">
+						<span class="caption">
+							<span class="icon"></span>
+						</span>
+					</a>
+				</div>
+
+				<div class="description">
+					<p class="title">GUI development</p>
+				</div>
+			</div>
+
+			<div class="portfolio_item Internet">
+				<div class="generic_pic_border w_caption play medium">
+					<a href="http://www.youtube.com/watch?v=FWUtMsiKhmM" data-rel="prettyPhoto">
+						<img src="img/pic_portfolio_3_7.png" alt="">
+						<span class="caption">
+							<span class="icon"></span>
+						</span>
+					</a>
+				</div>
+
+				<div class="description">
+					<p class="title">advertisement</p>
+				</div>
+			</div>
+
+			<div class="portfolio_item Graphic">
+				<div class="generic_pic_border w_caption play medium">
+					<a href="http://www.youtube.com/watch?v=FWUtMsiKhmM" data-rel="prettyPhoto">
+						<img src="img/pic_portfolio_3_8.png" alt="">
+						<span class="caption">
+							<span class="icon"></span>
+						</span>
+					</a>
+				</div>
+
+				<div class="description">
+					<p class="title">web design</p>
+				</div>
+			</div>
+
+			<div class="portfolio_item Internet">
+				<div class="generic_pic_border w_caption play medium">
+					<a href="http://www.youtube.com/watch?v=FWUtMsiKhmM" data-rel="prettyPhoto">
+						<img src="img/pic_portfolio_3_9.png" alt="">
+						<span class="caption">
+							<span class="icon"></span>
+						</span>
+					</a>
+				</div>
+
+				<div class="description">
+					<p class="title">Illustrations</p>
+				</div>
+			</div>
+
+			<div class="clear"></div>
+		</div>	
+
+	</div>
+
+	<div class="h_line"></div>
+	<div class="separator_3"></div>
+
+	<div class="block_pager fright">
+		<ul>
+			<li class="prev"><a href="#"><span></span></a></li>
+			<li class="first"><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li class="current"><a href="#">3</a></li>
+			<li class="last"><a href="#">4</a></li>
+			<li class="next"><a href="#"><span></span></a></li>
+		</ul>
+	</div>
+
+	<div class="clear"></div>
+
+</div>
+<!--#include file="layout_footer.html"-->

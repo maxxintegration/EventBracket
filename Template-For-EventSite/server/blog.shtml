@@ -1,0 +1,230 @@
+<!--#include file="layout_head.html"-->
+<div class="container">
+  <!--#include file="header.html"-->
+  <!-- End Head -->
+	<div class="block_titleline">
+		<h1>Blog</h1>
+
+		<div class="block_search">
+			<div class="field"><input type="text" class="w_def_text" title="Search"></div>
+			<input type="submit" class="button" value="Search">
+		</div>
+	</div>
+
+	<div class="block_breadcrumbs">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li>Blog</li>
+		</ul>
+	</div>
+
+	<div class="h_line"></div>
+	<div class="block_blog right_sidebar">
+		<div class="blog_content">
+			<article>
+				<h2>Established fact that a reader will be distracted</h2>
+
+				<div class="image"><div class="generic_pic_border medium"><img src="img/pic_blog_1.png" alt=""></div></div>
+
+				<div class="post_info">
+					<div class="date"><p>May 10, 2012</p></div>
+					<div class="author"><p><a href="#">Artureanec</a></p></div>
+					<div class="tags"><p><a href="#">Web Design</a>, <a href="#">Theme</a></p></div>
+					<div class="comments"><p><a href="#">12 Comments</a></p></div>
+				</div>
+
+				<div class="text">
+					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+				</div>
+
+				<div class="button_more"><a href="#" class="generic_button"><span>Learn More</span></a></div>
+
+				<div class="clear"></div>
+			</article>
+
+			<div class="separator_4"></div>
+			<div class="h_line"></div>
+			<div class="separator_1"></div>
+
+			<article>
+				<h2>A reader will be distracted Established fact that</h2>
+
+				<div class="image"><div class="generic_pic_border medium"><img src="img/pic_blog_2.png" alt=""></div></div>
+
+				<div class="post_info">
+					<div class="date"><p>May 12, 2012</p></div>
+					<div class="author"><p><a href="#">Admin</a></p></div>
+					<div class="tags"><p><a href="#">Web Design</a>, <a href="#">Theme</a></p></div>
+					<div class="comments"><p><a href="#">5 Comments</a></p></div>
+				</div>
+
+				<div class="text">
+					<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+				</div>
+
+				<div class="button_more"><a href="#" class="generic_button"><span>Learn More</span></a></div>
+
+				<div class="clear"></div>
+			</article>
+
+			<div class="separator_4"></div>
+			<div class="h_line"></div>
+			<div class="separator_1"></div>
+
+			<article>
+				<h2>Will be distracted Established fact that</h2>
+
+				<div class="image"><div class="generic_pic_border medium"><img src="img/pic_blog_3.png" alt=""></div></div>
+
+				<div class="post_info">
+					<div class="date"><p>May 17, 2012</p></div>
+					<div class="author"><p><a href="#">Admin</a></p></div>
+					<div class="tags"><p><a href="#">Web Design</a>, <a href="#">Theme</a></p></div>
+					<div class="comments"><p><a href="#">14 Comments</a></p></div>
+				</div>
+
+				<div class="text">
+					<p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+					<p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>
+				</div>
+
+				<div class="button_more"><a href="#" class="generic_button"><span>Learn More</span></a></div>
+
+				<div class="clear"></div>
+			</article>
+
+			<div class="separator_4"></div>
+			<div class="h_line"></div>
+			<div class="separator_2"></div>
+
+		</div>
+
+		<div class="blog_sidebar">
+			<h2>Categories</h2>
+
+			<ul class="list_8" style="margin-top:-3px;">
+				<li><a href="#">There are many variations</a></li>
+				<li><a href="#">Passages of Lorem Ipsum</a></li>
+				<li><a href="#">Available but the majority have</a></li>
+				<li><a href="#">Suffered alteration in some</a></li>
+				<li><a href="#">Form by injected humour</a></li>
+				<li><a href="#">Randomised words which don't</a></li>
+				<li><a href="#">Look even slightly believable</a></li>
+			</ul>
+
+			<div class="separator_1"></div>
+
+			<h2>Archive</h2>
+
+			<ul class="list_8" style="margin-top:-3px;">
+				<li><a href="#"><span>14</span>October 2011</a></li>
+				<li><a href="#"><span>17</span>November 2011</a></li>
+				<li><a href="#"><span>56</span>December 2011</a></li>
+				<li><a href="#"><span>45</span>Junuary 2012</a></li>
+				<li><a href="#"><span>78</span>February 2012</a></li>
+				<li><a href="#"><span>21</span>March 2012</a></li>
+				<li><a href="#"><span>5</span>April 2012</a></li>
+			</ul>
+
+			<div class="separator_1"></div>
+
+			<div class="block_recent_post">
+				<h2>Recent Posts</h2>
+				<div class="recent_post">
+					<div class="image"><div class="generic_pic_border"><img src="img/pic_recent_post_1.png" alt=""></div></div>
+					<div class="text">
+						<p><a href="#">Opposed to using Content here content here. making it look like.</a></p>
+						<p class="date">28 March, 2012</p>
+					</div>
+
+					<div class="clear"></div>
+				</div>
+
+				<div class="recent_post">
+					<div class="image"><div class="generic_pic_border"><img src="img/pic_recent_post_2.png" alt=""></div></div>
+					<div class="text">
+						<p><a href="#">Many desktop publishing packages and web. page editors now.</a></p>
+						<p class="date">1 April, 2012</p>
+					</div>
+
+					<div class="clear"></div>
+				</div>
+
+				<div class="recent_post">
+					<div class="image"><div class="generic_pic_border"><img src="img/pic_recent_post_3.png" alt=""></div></div>
+					<div class="text">
+						<p><a href="#">Content here content here, making it look. like readable.</a></p>
+						<p class="date">5 April, 2012</p>
+					</div>
+
+					<div class="clear"></div>
+				</div>
+
+			</div>
+
+			<div class="h_line"></div>
+			<div class="separator_1"></div>
+
+			<div class="block_text_widget">
+				<h2>Text Widget</h2>
+				<p>Many desktop publishing pvackages and web page editors now use Lorem Ipsum as their default model. text, and a search for 'lorem ipsum' will uncover.</p>
+				<p>Web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose  injected humour and the like.</p>
+			</div>
+
+			<div class="separator_4"></div>
+			<div class="h_line"></div>
+			<div class="separator_1"></div>
+
+			<div class="block_text_widget">
+				<h2>Featured Project</h2>
+				<p style="padding-top:7px;"><span class="generic_pic_border medium"><img src="img/pic_feature_project.png" alt=""></span></p>
+				<p>Many desktop publishing pvackages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover.</p>
+			</div>
+
+			<div class="separator_4"></div>
+			<div class="h_line"></div>
+			<div class="separator_1"></div>
+
+			<div class="block_tags_cloud">
+				<h2>Tags Cloud</h2>
+
+				<ul>
+					<li><a href="#">Theme</a></li>
+					<li><a href="#">Best Design</a></li>
+					<li><a href="#">Cloud</a></li>
+					<li><a href="#">Illustration</a></li>
+					<li><a href="#">Business</a></li>
+					<li><a href="#">Sell</a></li>
+					<li><a href="#">Entertainment</a></li>
+					<li><a href="#">Active</a></li>
+					<li><a href="#">Creative</a></li>
+					<li><a href="#">Pixel Perfect</a></li>
+					<li><a href="#">Sorted</a></li>
+					<li><a href="#">Code UI</a></li>
+					<li><a href="#">Works</a></li>
+					<li><a href="#">Web Theme</a></li>
+					<li><a href="#">Tags</a></li>
+					<li><a href="#">Graphic UI</a></li>
+				</ul>
+
+				<div class="clear"></div>
+			</div>
+
+		</div>
+
+		<div class="clear"></div>
+
+		<div class="block_pager">
+			<ul>
+				<li class="prev"><a href="#"><span></span></a></li>
+				<li class="first"><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li class="current"><a href="#">3</a></li>
+				<li class="last"><a href="#">4</a></li>
+				<li class="next"><a href="#"><span></span></a></li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+<!--#include file="layout_footer.html"-->

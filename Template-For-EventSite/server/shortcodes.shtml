@@ -1,0 +1,443 @@
+<!--#include file="layout_head.html"-->
+<div class="container">
+	<header>
+		<div class="row top_row">
+			<div class="call_us">Call Us: <span>(123) 456 78 90</span></div>
+			<div class="follow_us">
+				<span>Follow Us:</span>
+				<a href="#" class="tweeter" title="tweeter"></a>
+				<a href="#" class="facebook" title="facebook"></a>
+				<a href="#" class="vimeo" title="vimeo"></a>
+				<a href="#" class="linkedin" title="linkedin"></a>
+				<a href="#" class="flickr" title="flickr"></a>        
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="logo">
+			<a href="">sirius<span class="yellow">.</span></a>
+			<a href="" class="sub_txt">modern theme for biz</a>
+		</div>
+		<div class="menu">
+			<nav>
+				<ul>
+					<li class="first"><a href="index.html">Home</a></li>
+					<li><a href="#">Pages</a>
+						<ul>
+							<li class="first"><a href="about.html">About Us</a></li>
+							<li><a href="services.html">Services</a></li>
+							<li><a href="404.html">404 page</a></li>
+							<li class="last has_children"><a href="typography.html">Typography</a>
+								<ul>
+									<li class="first"><a href="columns.html">Columns</a></li>
+									<li class="last"><a href="pricing_tables.html">Pricing Tables</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li class="active"><a href="shortcodes.html">Shortcodes</a>
+						<ul>
+							<li class="first last has_children"><a href="typography.html">Typography</a>
+								<ul>
+									<li class="first"><a href="columns.html">Columns</a></li>
+									<li class="last"><a href="pricing_tables.html">Pricing Tables</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="portfolio_2_c.html">Portfolio</a>
+						<ul>
+							<li class="first"><a href="portfolio_2_c.html">2 Columns</a></li>
+							<li><a href="portfolio_3_c.html">3 Columns</a></li>
+							<li class="last"><a href="portfolio_4_c.html">4 Columns</a></li>
+						</ul>
+					</li>
+					<li><a href="blog.html">Blog</a>
+						<ul>
+							<li class="first"><a href="blog.html">Blog Right Sidebar</a></li>
+							<li><a href="blog_left_sidebar.html">Blog Left Sidebar</a></li>
+							<li class="last"><a href="blog_post.html">Blog Post</a></li>
+						</ul>
+					</li>
+					<li class="last"><a href="contacts.html">Contacts</a></li>
+				</ul>
+			</nav>
+		</div>  
+		<div class="clear"></div>
+
+		<div class="block_titleline">
+			<h1>Shortcodes</h1>
+
+			<div class="block_search">
+				<div class="field"><input type="text" class="w_def_text" title="Search"></div>
+				<input type="submit" class="button" value="Search">
+			</div>
+		</div>
+
+		<div class="block_breadcrumbs">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li>Shortcodes</li>
+			</ul>
+		</div>
+
+		<div class="h_line"></div>
+	</header>
+	<!-- End Head -->
+	
+	<div class="block_buttons">
+		<h2>custom color Form Buttons</h2>
+		<div>
+			<div class="generic_button">
+				<input type="submit" value="Input button" />		
+			</div>
+			<div class="generic_button red">
+				<input type="submit" value="Input button" />		
+			</div>
+			<div class="generic_button green">
+				<input type="submit" value="Input button" />		
+			</div>
+			<div class="generic_button blue">
+				<input type="submit" value="Input button" />		
+			</div>
+			<div class="generic_button brown">
+				<input type="submit" value="Input button" />		
+			</div>
+			<div class="generic_button black">
+				<input type="submit" value="Input button" />		
+			</div>
+			<div class="generic_button grey">
+				<input type="submit" value="Input button" />		
+			</div>	
+		</div>
+		<div class="clear"></div>
+		<div>
+			<div class="generic_button long">
+				<input type="submit" value="Input long button" />		
+			</div>
+			<div class="generic_button long red">
+				<input type="submit" value="Input long button" />		
+			</div>
+			<div class="generic_button long green">
+				<input type="submit" value="Input long button" />		
+			</div>
+			<div class="generic_button long blue">
+				<input type="submit" value="Input long button" />		
+			</div>
+			<div class="generic_button long brown">
+				<input type="submit" value="Input long button" />		
+			</div>
+			<div class="generic_button long black">
+				<input type="submit" value="Input long button" />		
+			</div>
+			<div class="generic_button long grey">
+				<input type="submit" value="Input long button" />		
+			</div>	
+		</div>
+		<div class="clear"></div>
+		<div>
+			<div class="generic_button big">
+				<input type="submit" value="Input big button" />		
+			</div>
+			<div class="generic_button big red">
+				<input type="submit" value="Input big button" />		
+			</div>
+			<div class="generic_button big green">
+				<input type="submit" value="Input big button" />		
+			</div>
+			<div class="generic_button big blue">
+				<input type="submit" value="Input big button" />		
+			</div>
+			<div class="generic_button big brown">
+				<input type="submit" value="Input big button" />		
+			</div>
+			<div class="generic_button big black">
+				<input type="submit" value="Input big button" />		
+			</div>
+			<div class="generic_button big grey">
+				<input type="submit" value="Input big button" />		
+			</div>	
+		</div>
+		<div class="clear"></div>
+		<div>
+			<div class="generic_button w_arrow">
+				<div class="wrapper">
+					<input type="submit" value="Input big button" />	
+					<div class="arrow"></div>
+				</div>
+			</div>
+			<div class="generic_button w_arrow red">
+				<div class="wrapper">
+					<input type="submit" value="Input big button" />	
+					<div class="arrow"></div>
+				</div>
+			</div>
+			<div class="generic_button w_arrow green">
+				<div class="wrapper">
+					<input type="submit" value="Input big button" />	
+					<div class="arrow"></div>
+				</div>
+			</div>
+			<div class="generic_button w_arrow blue">
+				<div class="wrapper">
+					<input type="submit" value="Input big button" />	
+					<div class="arrow"></div>
+				</div>
+			</div>
+			<div class="generic_button w_arrow brown">
+				<div class="wrapper">
+					<input type="submit" value="Input big button" />	
+					<div class="arrow"></div>
+				</div>
+			</div>
+			<div class="generic_button w_arrow black">
+				<div class="wrapper">
+					<input type="submit" value="Input big button" />	
+					<div class="arrow"></div>
+				</div>
+			</div>
+			<div class="generic_button w_arrow grey">
+				<div class="wrapper">
+					<input type="submit" value="Input big button" />	
+					<div class="arrow"></div>
+				</div>
+			</div>	
+		</div>
+		<div class="clear"></div>
+		<div class="h_line"></div>
+		<h2>custom color Text Buttons</h2>
+		<p>
+			<a href="#" class="generic_button"><span>Small button</span></a>
+			<a href="#" class="generic_button red"><span>Small button</span></a>
+			<a href="#" class="generic_button green"><span>Small button</span></a>
+			<a href="#" class="generic_button blue"><span>Small button</span></a>
+			<a href="#" class="generic_button brown"><span>Small button</span></a>
+			<a href="#" class="generic_button black"><span>Small button</span></a>
+			<a href="#" class="generic_button grey"><span>Small button</span></a>
+		</p>
+
+		<p>
+			<a href="#" class="generic_button long"><span>Long button</span></a>
+			<a href="#" class="generic_button long red"><span>Long button</span></a>
+			<a href="#" class="generic_button long green"><span>Long button</span></a>
+			<a href="#" class="generic_button long blue"><span>Long button</span></a>
+			<a href="#" class="generic_button long brown"><span>Long button</span></a>
+			<a href="#" class="generic_button long black"><span>Long button</span></a>
+			<a href="#" class="generic_button long grey"><span>Long button</span></a>
+		</p>
+
+		<p>
+			<a href="#" class="generic_button big"><span>Big button</span></a>
+			<a href="#" class="generic_button big red"><span>Big button</span></a>
+			<a href="#" class="generic_button big green"><span>Big button</span></a>
+			<a href="#" class="generic_button big blue"><span>Big button</span></a>
+			<a href="#" class="generic_button big brown"><span>Big button</span></a>
+			<a href="#" class="generic_button big black"><span>Big button</span></a>
+			<a href="#" class="generic_button big grey"><span>Big button</span></a>
+		</p>
+
+		<p>
+			<a href="#" class="generic_button w_arrow"><span><span>Big button</span></span></a>
+			<a href="#" class="generic_button w_arrow red"><span><span>Big button</span></span></a>
+			<a href="#" class="generic_button w_arrow green"><span><span>Big button</span></span></a>
+			<a href="#" class="generic_button w_arrow blue"><span><span>Big button</span></span></a>
+			<a href="#" class="generic_button w_arrow brown"><span><span>Big button</span></span></a>
+			<a href="#" class="generic_button w_arrow black"><span><span>Big button</span></span></a>
+			<a href="#" class="generic_button w_arrow grey"><span><span>Big button</span></span></a>
+		</p>
+	</div>
+
+	<div class="h_line"></div>
+
+	<div class="row-fluid">
+		<div class="span6">
+			<div class="block_tabs">
+				<h2>Tabs</h2>
+
+ 				<div class="tabs_wrapper">
+                    <div class="tabs">
+                       	<ul>
+                            <li><a href="#1" class="current">Item 1</a></li><!-- tab link -->
+                            <li><a href="#2">Item 2</a></li><!-- tab link -->
+                           	<li><a href="#3">Item 3</a></li><!-- tab link -->
+                        </ul>
+                    </div>
+                                    
+                    <div class="tab_content">
+                      	<!-- tab content goes here -->
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+                    </div>
+                                    
+                    <div class="tab_content">
+                        <!-- tab content goes here -->
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+                    </div>
+                                    
+                    <div class="tab_content">
+                        <!-- tab content goes here -->
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'.</p>
+                    </div>
+               </div>
+			</div>
+		</div>
+
+		<div class="span6">
+			<div class="block_toggles">
+				<h2>Toggles</h2>
+
+				<div class="toggles_wrapper">
+					<div class="button_outer"><div class="button_inner">The point of using Lorem Ipsum is that it has a more-or-less</div></div><!-- toggle trigger -->
+                    <div class="toggles_content">
+                       	<!-- toggle content goes here -->
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+                    </div>
+                        
+                    <div class="button_outer"><div class="button_inner">Many desktop publishing packages and web page editors</div></div><!-- toggle trigger -->
+                    <div class="toggles_content">
+                        <!-- toggle content goes here -->
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+                    </div>
+                        
+                    <div class="button_outer"><div class="button_inner">Will be distracted by the readable content of a page when</div></div><!-- toggle trigger -->
+                    <div class="toggles_content">
+                      	<!-- toggle content goes here -->
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+                    </div>
+				</div>
+			</div>
+		</div>
+
+		<div class="clear"></div>
+	</div>
+
+	<div class="h_line"></div>
+
+	<div class="row-fluid">
+		<div class="span6">
+			<div class="block_tables">
+				<h2>Tables</h2>
+
+				<table border="0" cellpadding="0" cellspacing="0" class="sirius_table">
+					<tr>
+						<th>&nbsp;</th>
+						<th>Item 1</th>
+						<th>Item 2</th>
+						<th>Item 3</th>
+						<th class="last">Item 4</th>
+					</tr>
+					<tr>
+						<td>Item 1</td>
+						<td>Item 1_1</td>
+						<td>Item 1_2</td>
+						<td>Item 1_3</td>
+						<td class="last">Item 1_4</td>
+					</tr>
+					<tr>
+						<td>Item 2</td>
+						<td>Item 2_1</td>
+						<td>Item 2_2</td>
+						<td>Item 2_3</td>
+						<td class="last">Item 2_4</td>
+					</tr>
+					<tr>
+						<td>Item 3</td>
+						<td>Item 3_1</td>
+						<td>Item 3_2</td>
+						<td>Item 3_3</td>
+						<td class="last">Item 3_4</td>
+					</tr>
+					<tr>
+						<td>Item 4</td>
+						<td>Item 4_1</td>
+						<td>Item 4_2</td>
+						<td>Item 4_3</td>
+						<td class="last">Item 4_4</td>
+					</tr>
+					<tr class="last">
+						<td>Item 5</td>
+						<td>Item 5_1</td>
+						<td>Item 5_2</td>
+						<td>Item 5_3</td>
+						<td class="last">Item 5_4</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<div class="span6">
+			<div class="block_style_boxes">
+				<h2>Styled Boxes</h2>
+
+				<div class="style_box info"><p>Information Styled Box</p></div>
+				<div class="style_box warning"><p>Warning Styled Box</p></div>
+				<div class="style_box access"><p>Access Styled Box</p></div>
+				<div class="style_box help"><p>Help Styled Box</p></div>
+			</div>
+		</div>
+
+		<div class="clear"></div>
+	</div>
+
+	<div class="h_line"></div>
+
+	<div class="block_lists">
+		<h2>Lists</h2>
+
+		<div class="row-fluid">
+			<div class="span2">
+				<ul class="list_1">
+					<li>Check List</li>
+					<li>Check List</li>
+					<li><a href="#">Check List</a></li>
+					<li><a href="#">Check List</a></li>
+				</ul>
+			</div>
+
+			<div class="span2">
+				<ul class="list_2">
+					<li>Bullet List Item</li>
+					<li>Bullet List Item</li>
+					<li><a href="#">Bullet List Item</a></li>
+					<li><a href="#">Bullet List Item</a></li>
+				</ul>
+			</div>
+
+			<div class="span2">
+				<ul class="list_3">
+					<li>Arrow List Item</li>
+					<li>Arrow List Item</li>
+					<li><a href="#">Arrow List Item</a></li>
+					<li><a href="#">Arrow List Item</a></li>
+				</ul>
+			</div>
+
+			<div class="span2">
+				<ul class="list_4">
+					<li>Star List Item</li>
+					<li>Star List Item</li>
+					<li><a href="#">Star List Item</a></li>
+					<li><a href="#">Star List Item</a></li>
+				</ul>
+			</div>
+
+			<div class="span2">
+				<ul class="list_5">
+					<li>Close List Item</li>
+					<li>Close List Item</li>
+					<li><a href="#">Close List Item</a></li>
+					<li><a href="#">Close List Item</a></li>
+				</ul>
+			</div>
+
+			<div class="span2">
+				<ul class="list_6">
+					<li>Add List Item</li>
+					<li>Add List Item</li>
+					<li><a href="#">Add List Item</a></li>
+					<li><a href="#">Add List Item</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</div>
+<!--#include file="layout_footer.html"-->

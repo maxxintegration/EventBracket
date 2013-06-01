@@ -1,0 +1,51 @@
+<!--#include file="layout_head.html"-->
+<div class="container">
+  <!--#include file="header.html"-->
+  <!-- End Head -->
+
+  <div class="block_titleline">
+    <h1>404 Page Not Found</h1>
+
+    <div class="block_search">
+      <div class="field"><input type="text" class="w_def_text" title="Search"></div>
+      <input type="submit" class="button" value="Search">
+    </div>
+  </div>
+
+  <div class="block_breadcrumbs">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li>404 Page</li>
+    </ul>
+  </div>
+
+  <div class="h_line"></div>
+
+  <div class="block_404">
+    <div class="text_big">
+      <p class="num">404</p>
+      <p>Page Not Found</p>
+    </div>
+
+    <div class="text">
+      <p>It is a long established fact that a reader will be distracted by the <a href="#">readable content</a> of a page when looking at its layout. The point of using <a href="#">Lorem Ipsum</a> is that it has a more-or-less normal distribution.</p>
+      <p>&nbsp;</p>
+      <p>1. Opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years.<br>sometimes.accident, sometimes on purpose (injected humour and the like).</p>
+      <p>2. Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+
+  <div class="h_line"></div>
+
+  <section class="promo_meassage">
+    <p class="promo_txt">Sirius. is a clean and styled Premium PSD Theme useful for portfolio, business and blog websites.</p>
+    <div class="button"><a href="#" class="generic_button w_arrow"><span><span>Contact Us</span></span></a></div>
+    <div class="clear"></div>
+  </section>
+  <div class="h_line"></div>
+
+</div>
+
+<!--#include file="layout_footer.html"-->

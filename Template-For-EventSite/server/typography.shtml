@@ -1,0 +1,92 @@
+<!--#include file="layout_head.html"-->
+<div class="container">
+  <!--#include file="header.html"-->
+  <!-- End Head -->
+
+	<div class="block_titleline">
+		<h1>Typography</h1>
+
+		<div class="block_search">
+			<div class="field"><input type="text" class="w_def_text" title="Search"></div>
+			<input type="submit" class="button" value="Search">
+		</div>
+	</div>
+
+	<div class="block_breadcrumbs">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="shortcodes.html">Shortcodes</a></li>
+			<li>Typography</li>
+		</ul>
+	</div>
+
+	<div class="h_line"></div>
+
+	<div class="block_typography">
+		<h1 class="generic_h1">Heading 1</h1>
+		<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+		
+		<div class="h_line"></div>
+
+		<h2 class="generic_h2">Heading 2</h2>
+		<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+		
+		<div class="h_line"></div>
+
+		<h3 class="generic_h3">Heading 3</h3>
+		<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+		
+		<div class="h_line"></div>
+
+		<h4 class="generic_h4">Heading 4</h4>
+		<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+		
+		<div class="h_line"></div>
+
+		<h5 class="generic_h5">Heading 5</h5>
+		<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+		
+		<div class="h_line"></div>
+
+		<h6 class="generic_h6">Heading 6</h6>
+		<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+		
+		<div class="h_line"></div>
+
+		<h2>Block Quotes</h2>
+
+		<div class="row-fluid">
+			<div class="span3">
+				<blockquote class="generic_blockquote_type_1"><p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.</p></blockquote>
+			</div>
+
+			<div class="span9">
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators</p>
+			</div>
+
+			<div class="clear"></div>
+		</div>
+
+		<div class="h_line" style="margin-top:16px;"></div>
+
+		<h2>Block Line</h2>
+
+		<div class="row-fluid">
+			<div class="span9">
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators</p>
+			</div>
+
+			<div class="span3">
+				<p class="generic_line_left">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing.</p>
+			</div>
+
+			<div class="clear"></div>
+		</div>
+
+		<h2>Highlights</h2>
+		<p>There are many variations of passages of Lorem Ipsum available, but the majority have <ins datetime="datetime_text" cite="cite_text" class="generic_ins_1">suffered alteration in some form, by injected humour</ins>, or randomised words which don't look even slightly believable. <ins datetime="datetime_text" cite="cite_text" class="generic_ins_2">If you are going to use a passage of Lorem Ipsum</ins>, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+
+	</div>
+
+</div>
+<!--#include file="layout_footer.html"-->

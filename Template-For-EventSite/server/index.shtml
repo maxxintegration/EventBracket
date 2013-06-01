@@ -1,0 +1,283 @@
+<!--#include file="layout_head.html"-->
+<div class="container">
+	<!--#include file="header.html"-->
+	<!-- End Head -->
+	<section class="promo_slider">
+
+		<div class="slider_border">
+			<div class="slides_container">
+				<div><img src="img/slide_1.png" height="388" /></div>
+				<div><img src="img/slide_2.png" height="388" /></div>
+				<div><img src="img/slide_3.png" height="388" /></div>            
+			</div>
+		</div>
+		<div id="pagination">
+			<ul class="pagination">
+				<li class="current">
+					<a href="#0"></a>
+				</li>
+				<li>
+					<a href="#1"></a>
+				</li>
+				<li>
+					<a href="#2"></a>
+				</li>
+			</ul>
+			<div class="clear"></div>
+		</div>    
+		<a href="#" class="next"></a> <a href="#" class="prev"></a> 
+	</section>
+	<div class="h_line"></div>
+
+	<section class="promo_meassage">
+		<p class="promo_txt">Sirius. is a clean and styled Premium PSD Theme useful for portfolio, business and blog websites.</p>
+		<div class="button"><a href="#" class="generic_button w_arrow"><span><span>Get started</span></span></a></div>
+		<div class="clear"></div>
+	</section>
+	<div class="h_line"></div>
+
+	<section class="block_banners">
+		<div class="banner">
+			<a href="#" class="banner_1">Development</a>
+		</div>
+		<div class="banner">
+			<a href="#" class="banner_2">Fresh ideas</a>
+		</div>
+		<div class="banner">
+			<a href="#" class="banner_3">Global Integration</a>
+		</div>
+		<div class="banner">
+			<a href="#" class="banner_4">Innovations</a>
+		</div>
+		<div class="clear"></div>
+	</section>
+	<div class="h_line"></div>
+
+	<section class="block_about_us">
+		<div class="row-fluid">
+			<div class="span8">
+				<div class="about_us">
+					<h2>About Us</h2>
+					<p>It is a long established fact that a reader will be distracted by the <a href="#">readable content</a> of a page when looking at its layout. The point of using <a href="#">Lorem Ipsum</a> is that it has a more-or-less normal distribution.</p>
+
+					<p>Opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years sometimes.accident, sometimes on purpose (injected humour and the like).</p>
+
+					<a href="#" class="generic_button"><span>Learn More</span></a>
+				</div>
+			</div>
+			<div class="span4">
+				<h2>Testimonials</h2>
+				<div class="block_testimonial">
+					<div class="testimonials_nav"></div>
+
+					<div id="testimonials" class="flexslider">
+						<ul class="slides">
+							<li>
+								<div class="testimonial">
+									<p class="text">“Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now.</p>
+									<p class="author">John Smith, <span class="position">Vice President</span></p>
+								</div>
+							</li>
+
+							<li>
+								<div class="testimonial">
+									<p class="text">“Content here. Many desktop publishing packages and web page editors now.</p>
+									<p class="author">John Doe, <span class="position">Manager</span></p>
+								</div>
+							</li>
+
+							<li>
+								<div class="testimonial">
+									<p class="text">“Content here, content here', making it look like readable English. Many desktop.</p>
+									<p class="author">Jane Smith, <span class="position">President</span></p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</section>
+	<div class="h_line"></div>
+
+	<section class="block_recent_projects_gallery">
+		<div class="description">
+			<div id="pager_recent_projects_gallery" class="recent_projects_gallery_nav"></div>
+			<h2>Recent projects</h2>
+			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+			<a href="#" class="generic_button"><span>View our portfolio</span></a>
+		</div>
+		<div class="gallery">
+			<div id="recent_projects_gallery" class="flexslider">
+				<ul class="slides">
+					<li class="projects">
+						<ul>
+							<li>
+								<div class="generic_pic_border w_caption zoom medium">
+									<a href="img/slide_3.png" data-rel="prettyPhoto">
+										<img src="img/pic_recent_project_1.png" alt="">
+										<span class="caption">
+											<span class="icon"></span>
+											<span class="title">Illustration</span>
+											<span class="text">Will be distracted by the readable</span>
+										</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="generic_pic_border w_caption zoom medium">
+									<a href="img/slide_3.png" data-rel="prettyPhoto">
+										<img src="img/pic_recent_project_2.png" alt="">
+										<span class="caption">
+											<span class="icon"></span>
+											<span class="title">Photo</span>
+											<span class="text">Will be distracted by the readable</span>
+										</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="generic_pic_border w_caption zoom medium">
+									<a href="img/slide_3.png" data-rel="prettyPhoto">
+										<img src="img/pic_recent_project_3.png" alt="">
+										<span class="caption">
+											<span class="icon"></span>
+											<span class="title">Design</span>
+											<span class="text">Will be distracted by</span>
+										</span>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</li>
+
+					<li class="projects">
+						<ul>
+							<li>
+								<div class="generic_pic_border w_caption zoom medium">
+									<a href="img/slide_3.png" data-rel="prettyPhoto">
+										<img src="img/pic_recent_project_1.png" alt="">
+										<span class="caption">
+											<span class="icon"></span>
+											<span class="title">Illustration</span>
+											<span class="text">Will be distracted by the readable</span>
+										</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="generic_pic_border w_caption zoom medium">
+									<a href="img/slide_3.png" data-rel="prettyPhoto">
+										<img src="img/pic_recent_project_3.png" alt="">
+										<span class="caption">
+											<span class="icon"></span>
+											<span class="title">Photo</span>
+											<span class="text">Will be distracted by the readable</span>
+										</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="generic_pic_border w_caption zoom medium">
+									<a href="img/slide_3.png" data-rel="prettyPhoto">
+										<img src="img/pic_recent_project_2.png" alt="">
+										<span class="caption">
+											<span class="icon"></span>
+											<span class="title">Design</span>
+											<span class="text">Will be distracted by</span>
+										</span>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</li>
+
+					<li class="projects">
+						<ul>
+							<li>
+								<div class="generic_pic_border w_caption zoom medium">
+									<a href="img/slide_3.png" data-rel="prettyPhoto">
+										<img src="img/pic_recent_project_2.png" alt="">
+										<span class="caption">
+											<span class="icon"></span>
+											<span class="title">Illustration</span>
+											<span class="text">Will be distracted by the readable</span>
+										</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="generic_pic_border w_caption zoom medium">
+									<a href="img/slide_3.png" data-rel="prettyPhoto">
+										<img src="img/pic_recent_project_3.png" alt="">
+										<span class="caption">
+											<span class="icon"></span>
+											<span class="title">Photo</span>
+											<span class="text">Will be distracted by the readable</span>
+										</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="generic_pic_border w_caption zoom medium">
+									<a href="img/slide_3.png" data-rel="prettyPhoto">
+										<img src="img/pic_recent_project_1.png" alt="">
+										<span class="caption">
+											<span class="icon"></span>
+											<span class="title">Design</span>
+											<span class="text">Will be distracted by</span>
+										</span>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</li>
+
+					<li class="projects">
+						<ul>
+							<li>
+								<div class="generic_pic_border w_caption zoom medium">
+									<a href="img/slide_3.png" data-rel="prettyPhoto">
+										<img src="img/pic_recent_project_3.png" alt="">
+										<span class="caption">
+											<span class="icon"></span>
+											<span class="title">Illustration</span>
+											<span class="text">Will be distracted by the readable</span>
+										</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="generic_pic_border w_caption zoom medium">
+									<a href="img/slide_3.png" data-rel="prettyPhoto">
+										<img src="img/pic_recent_project_1.png" alt="">
+										<span class="caption">
+											<span class="icon"></span>
+											<span class="title">Photo</span>
+											<span class="text">Will be distracted by the readable</span>
+										</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="generic_pic_border w_caption zoom medium">
+									<a href="img/slide_3.png" data-rel="prettyPhoto">
+										<img src="img/pic_recent_project_2.png" alt="">
+										<span class="caption">
+											<span class="icon"></span>
+											<span class="title">Design</span>
+											<span class="text">Will be distracted by</span>
+										</span>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</section>
+</div>
+<!--#include file="layout_footer.html"-->

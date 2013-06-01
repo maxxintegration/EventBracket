@@ -1,0 +1,64 @@
+<!--#include file="layout_head.html"-->
+<div class="container">
+  <!--#include file="header.html"-->
+  <!-- End Head -->
+
+	<div class="block_titleline">
+		<h1>Contacts</h1>
+
+		<div class="block_search">
+			<div class="field"><input type="text" class="w_def_text" title="Search"></div>
+			<input type="submit" class="button" value="Search">
+		</div>
+	</div>
+
+	<div class="block_breadcrumbs">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li>Contacts</li>
+		</ul>
+	</div>
+
+	<div class="h_line"></div>
+
+	<div class="separator_1"></div>
+	<h2>Contact iformation</h2>
+	<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like <a href="#">readable English</a> Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+
+	<div class="block_map">
+		<div class="generic_pic_border medium"><img src="img/pic_map.png" alt=""></div>
+	</div>
+
+	<div class="separator_2"></div>
+	<div class="h_line"></div>
+	<div class="separator_1"></div>
+
+	<div class="block_contact_form">
+		<h2>Contact Form</h2>
+
+		<form action="mail.php"  method="post" class="contact_form">
+			<div class="field"><input type="text" class="w_def_text check" title="Your Name*" name="name" /></div>
+			<div class="field"><input type="text" class="w_def_text email check" title="Your E-Mail*" name="email" /></div>
+			<div class="field"><input type="text" class="w_def_text" title="Your Website" name="site"></div>
+			<div class="textarea"><textarea cols="1" rows="1" class="w_def_text" title="Message" name="msg"></textarea></div>
+			<div class="generic_button"><span>Send Message</span></div	>
+			<div class="clear"></div>
+		</form>
+	</div>
+
+	<div class="block_location">
+		<h2>Location</h2>
+		<p><b>Address:</b> 25 Some Street Avenu, New York , BH 90210, USA</p>
+
+		<p><b>Phone:</b> (123) 456 - 7890<br>
+		<b>Fax:</b> + (123) 156- 7890<br>
+		<b>Email:</b> <a href="mailto:#">info@sirius.com</a><br>
+		<b>Website:</b> <a href="#">siriuscompany.com</a></p>
+
+		<p><b>Additional Info:</b> It is a long established fact that a reader will be distracted by the <a href="#">readable content</a> of a page when looking at its layout.</p>
+	</div>
+
+	<div class="clear"></div>
+
+</div>
+<!--#include file="layout_footer.html"-->

@@ -1,0 +1,105 @@
+<!--#include file="layout_head.html"-->
+<div class="container">
+  <!--#include file="header.html"-->
+  <!-- End Head -->
+	<div class="block_titleline">
+		<h1>Columns</h1>
+
+		<div class="block_search">
+			<div class="field"><input type="text" class="w_def_text" title="Search"></div>
+			<input type="submit" class="button" value="Search">
+		</div>
+	</div>
+
+	<div class="block_breadcrumbs">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="shortcodes.html">Shortcodes</a></li>
+			<li>Columns</li>
+		</ul>
+	</div>
+
+	<div class="h_line"></div>	
+
+	<div class="block_columns">
+		<h2>Full width</h2>
+		<div class="row-fluid">
+			<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+		</div>
+		
+		<div class="h_line"></div>
+
+		<h2>Four columns</h2>
+		<div class="row-fluid">
+			<div class="span3">
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+			</div>
+
+			<div class="span3">
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+			</div>
+
+			<div class="span3">
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+			</div>
+
+			<div class="span3">
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+			</div>
+
+			<div class="clear"></div>
+		</div>
+
+		<div class="h_line"></div>
+
+		<h2>Three columns</h2>
+		<div class="row-fluid">
+			<div class="span4">
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need. to be sure there isn't anything embarrassing hidden.</p>
+			</div>
+
+			<div class="span4">
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need. to be sure there isn't anything embarrassing hidden.</p>
+			</div>
+
+			<div class="span4">
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need. to be sure there isn't anything embarrassing hidden.</p>
+			</div>
+
+			<div class="clear"></div>
+		</div>
+
+		<div class="h_line"></div>
+
+		<h2>Two columns</h2>
+		<div class="row-fluid">
+			<div class="span6">
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need. to be sure there isn't anything embarrassing hidden. in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+			</div>
+
+			<div class="span6">
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need. to be sure there isn't anything embarrassing hidden. in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+			</div>
+
+			<div class="clear"></div>
+		</div>
+
+		<div class="h_line"></div>
+
+		<h2>Two third columns</h2>
+		<div class="row-fluid">
+			<div class="span4">
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need. to be sure there isn't anything embarrassing hidden.</p>
+			</div>
+
+			<div class="span8">
+				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need. to be sure there isn't anything embarrassing hidden. in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
+			</div>
+
+			<div class="clear"></div>
+		</div>
+
+	</div>
+
+</div>
+<!--#include file="layout_footer.html"-->

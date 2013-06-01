@@ -1,0 +1,21 @@
+.block_service {
+  padding-top: 17px;
+
+  .icon {
+    margin-right: 30px;
+    padding-top: 13px;
+    float: left;
+  }
+
+  .text {
+    overflow: hidden;
+
+    p {
+      line-height: 20px;
+    }
+
+    .generic_button {
+      margin-top: -5px;
+    }
+  }
+}
