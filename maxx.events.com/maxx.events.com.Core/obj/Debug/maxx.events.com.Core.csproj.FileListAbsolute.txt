@@ -1,0 +1,5 @@
+C:\Users\Gloria\Documents\GitHub\EventBracket\maxx.events.com\maxx.events.com.Core\bin\Debug\maxx.events.com.Core.dll
+C:\Users\Gloria\Documents\GitHub\EventBracket\maxx.events.com\maxx.events.com.Core\bin\Debug\maxx.events.com.Core.pdb
+C:\Users\Gloria\Documents\GitHub\EventBracket\maxx.events.com\maxx.events.com.Core\obj\Debug\maxx.events.com.Core.csprojResolveAssemblyReference.cache
+C:\Users\Gloria\Documents\GitHub\EventBracket\maxx.events.com\maxx.events.com.Core\obj\Debug\maxx.events.com.Core.dll
+C:\Users\Gloria\Documents\GitHub\EventBracket\maxx.events.com\maxx.events.com.Core\obj\Debug\maxx.events.com.Core.pdb
